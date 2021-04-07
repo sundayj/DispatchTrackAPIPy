@@ -109,7 +109,7 @@ except ApiException as e:
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://dtdapi.dispatchtrack.com/api/v1*
+All URIs are relative to *https://{subdomain}.dispatchtrack.com/api/v1*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
