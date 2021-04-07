@@ -1,0 +1,48 @@
+# ServiceOrder
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**order_number** | **str** |  | [optional] 
+**status** | **str** |  | [optional] 
+**service_type** | **str** |  | [optional] 
+**description** | **str** |  | [optional] 
+**account_name** | **str** |  | [optional] 
+**confirmation_status** | **str** |  | [optional] 
+**text_confirmation_status** | **str** |  | [optional] 
+**stop_number** | **float** |  | [optional] 
+**route_locked** | **bool** |  | [optional] 
+**delivery_date** | **str** |  | [optional] 
+**delivery_time_window_start** | **str** |  | [optional] 
+**delivery_time_window_end** | **str** |  | [optional] 
+**scheduled_at** | **str** |  | [optional] 
+**time_window_start** | **str** |  | [optional] 
+**time_window_end** | **str** |  | [optional] 
+**route_tag** | **str** |  | [optional] 
+**service_duration** | **float** |  | [optional] 
+**service_unit** | **str** |  | [optional] 
+**survey_status** | **str** |  | [optional] 
+**survey_received_date** | **str** |  | [optional] 
+**started_at** | **str** |  | [optional] 
+**finished_at** | **str** |  | [optional] 
+**amount** | **float** |  | [optional] 
+**pieces** | **float** |  | [optional] 
+**volume** | **float** |  | [optional] 
+**delivery_charges** | **float** |  | [optional] 
+**sales_tax** | **float** |  | [optional] 
+**truck** | [**ServiceOrderTruck**](ServiceOrderTruck.md) |  | [optional] 
+**drivers** | [**list[ServiceOrderDrivers]**](ServiceOrderDrivers.md) |  | [optional] 
+**pod** | [**ServiceOrderPod**](ServiceOrderPod.md) |  | [optional] 
+**customer** | [**Customer**](Customer.md) |  | [optional] 
+**images** | [**list[Image]**](Image.md) |  | [optional] 
+**scanned_documents** | [**list[ScannedDocument]**](ScannedDocument.md) |  | [optional] 
+**notes** | [**list[Note]**](Note.md) |  | [optional] 
+**service_order_items** | [**list[Item]**](Item.md) |  | [optional] 
+**service_order_histories** | [**list[History]**](History.md) |  | [optional] 
+**additional_fields** | [**ServiceOrderAdditionalFields**](ServiceOrderAdditionalFields.md) |  | [optional] 
+**custom_fields** | [**ServiceOrderCustomFields**](ServiceOrderCustomFields.md) |  | [optional] 
+**signature** | [**ServiceOrderSignature**](ServiceOrderSignature.md) |  | [optional] 
+**surveys** | [**ServiceOrderSurveys**](ServiceOrderSurveys.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
