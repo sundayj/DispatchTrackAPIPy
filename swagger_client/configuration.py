@@ -45,8 +45,10 @@ class Configuration(six.with_metaclass(TypeWithDefault, object)):
 
     def __init__(self):
         """Constructor"""
+        # Subdomain provided by user
+        self.subdomain = ""
         # Default Base url
-        self.host = "https://{subdomain}.dispatchtrack.com/api/v1"
+        self.host = f"https://{self.subdomain}.dispatchtrack.com/api/v1"
         # Temp file folder for downloading files
         self.temp_folder_path = None
 

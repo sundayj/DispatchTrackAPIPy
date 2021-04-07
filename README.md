@@ -92,6 +92,9 @@ except ApiException as e:
     print("Exception when calling OrdersApi->export_post: %s\n" % e)
 # Configure HTTP basic authorization: GetTokenAuth
 configuration = swagger_client.Configuration()
+# Example: your-dt-instance
+# The subdomain will be used in the api call, like this: https://{SUBDOMAIN}.dispatchtrack.com/api/v1/...
+configuration.subdomain = 'SUBDOMAIN'
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
